@@ -1,0 +1,70 @@
+.secion1 {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.secdiv {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sec1btn {
+    width: 150px;
+    height: 30px;
+}
+.sec1btn2 {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.card {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+.sec1card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .secion1 h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .sec1image {
+        width: 350px;
+    }
+    .secion1 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    .sec1card {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    .sec1card h1 {
+        font-size: 20px;
+    }
+}
